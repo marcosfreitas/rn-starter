@@ -76,12 +76,12 @@ const HomeScreen = (props) => {
             style={styles.buttons}
             onPress={
                 () => {
-                    props.navigation.navigate('Combine');
+                    props.navigation.navigate('RGB');
                 }
             }
           >
             <Button
-                title="Combine Colors"
+                title="RGB"
             />
           </TouchableOpacity>
       </View>
